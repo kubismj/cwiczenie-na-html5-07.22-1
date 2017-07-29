@@ -53,6 +53,7 @@ header#header h1#main-header-text {
 	text-transform: uppercase;
 	color: #fff;
 }
+
 /* Section styles */
 
 section#about {
@@ -67,10 +68,26 @@ section#about h2#about-header {
 }
 
 /* Footer styles */
+
 footer#contact {
-	position: relative;
+	padding: 30px 50px;
 	text-align: center;
-	margin: 30px 0;
-	padding: 0 50px;
 	background: #222;
+}
+footer#contact h2#contact-header {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+}
+footer#contact adress#contact-content {
+	color: #fff;
+	font-style: normal;
+} 
+footer#contact adress#contact-content a {
+	color: #fff;
+}
+footer#contact adress#contact-content a:hover {
+	color: #999;
+/*	hover - podświetlanie po najechaniu kursorem */
 }
